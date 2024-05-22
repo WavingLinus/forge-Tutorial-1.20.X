@@ -45,7 +45,7 @@ public class TutorialMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-       if (event.getTabKey() = CreativeModeTab.INGREDIENTS) {
+       if (event.getTabKey() == CreativeModeTab.INGREDIENTS) {
            event.accept(ModItems.SAPPHIRE);
        }
     }
